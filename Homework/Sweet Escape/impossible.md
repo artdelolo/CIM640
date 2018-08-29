@@ -17,11 +17,13 @@ Sweet Escape takes a user’s desired travel dates, budget, travel party size, a
 * Set up transportation between locations
 * Make meal reservations
 
-![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/titlecard.jpg)
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/Phone.jpg)
 
 ###### The smart suitcase will handle any physical pre-trip needs.
 * Print out all your tickets (you will have a copy on your mobile device)
 * Pack your suitcase based on your final destination
+
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/Suitcase.jpg)
 
 ### USER INPUT
 
