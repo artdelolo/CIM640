@@ -23,7 +23,6 @@ Sweet Escape takes a user’s desired travel dates, budget, travel party size, a
 * Print out all your tickets (you will have a copy on your mobile device)
 * Pack your suitcase based on your final destination
 
-![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/Suitcase.jpg)
 
 ### USER INPUT
 
