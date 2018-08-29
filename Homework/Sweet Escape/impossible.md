@@ -1,16 +1,29 @@
-SWEET ESCAPE APP
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/titlecard.jpg)
 
-PURPOSE & FEATURES
+# SWEET ESCAPE | The Smart Suitcase
+
+### PURPOSE
 
 Sweet Escape is a smart suitcase with an integrated mobile application that helps users hop on a plane or train and travel the world in as little time as possible.
 
 Sweet Escape takes a user’s desired travel dates, budget, travel party size, and traveling style to book and plan a random full vacation from start to end.
 
-The application will book your flights (based on your current location), hotel rooms, excursion tickets, transportation between locations, and meal reservations.
+### FEATURES
+###### The application will handle all of the details of your trip.
 
-The smart suitcase will also print out all your tickets (you will have a copy on your mobile device) and also pre-pack your suitcase based on your final destination.
+* Book your round-trip flights (based on your current location)
+* Book your hotel room
+* Book excursion or tour tickets
+* Set up transportation between locations
+* Make meal reservations
 
-USER INPUT
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/titlecard.jpg)
+
+###### The smart suitcase will handle any physical pre-trip needs.
+* Print out all your tickets (you will have a copy on your mobile device)
+* Pack your suitcase based on your final destination
+
+### USER INPUT
 
 1. Enter desired date of departure via calendar menu
 2. Select length of stay from a drop menu
