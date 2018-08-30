@@ -42,4 +42,4 @@ Sweet Escape takes a user’s desired travel dates, budget, travel party size, a
 11. Smart suitcase will begin to pack itself and print your tickets
 12. You’re ready to fly!
 
-![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/samples.jpg)
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/Samples.jpg)
