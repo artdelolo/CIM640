@@ -8,6 +8,9 @@ Sweet Escape is a smart suitcase with an integrated mobile application that help
 
 Sweet Escape takes a user’s desired travel dates, budget, travel party size, and traveling style to book and plan a random full vacation from start to end.
 
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/sketches.jpg)
+
+
 ### FEATURES
 ###### The application will handle all of the details of your trip.
 
