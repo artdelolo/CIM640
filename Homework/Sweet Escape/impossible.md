@@ -41,3 +41,5 @@ Sweet Escape takes a user’s desired travel dates, budget, travel party size, a
 10. Enter all personal, emergency, and payment information in a form and press the button to confirm order
 11. Smart suitcase will begin to pack itself and print your tickets
 12. You’re ready to fly!
+
+![titlecard](https://github.com/artdelolo/CIM640/blob/master/Homework/Sweet%20Escape/samples.jpg)
