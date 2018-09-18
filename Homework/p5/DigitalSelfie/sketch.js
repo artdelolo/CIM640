@@ -3,6 +3,9 @@ var y = 400;
 var xmiddle = x/2;
 var ymiddle = y/2;
 var hairColor = 0;
+var r;
+var g;
+var b;
 
 
 function setup() {
@@ -16,9 +19,12 @@ function draw() {
   background("#58FAF4");
   // put drawing code here
 
+  // Pick colors randomly
+  fill(0);
+
   //base hair
   strokeWeight(0);
-  fill(hairColor);
+  fill(r,g,b);
   quad(x-x*.75, y-y*.75, x-x*.25, y-y*.75, xmiddle+xmiddle*.7, ymiddle, xmiddle*.3, ymiddle);
   quad(xmiddle*.3, ymiddle, xmiddle+xmiddle*.7, ymiddle, xmiddle+xmiddle*.625, ymiddle+ymiddle*.2, xmiddle*.45, ymiddle+ymiddle*.2);
 
@@ -32,8 +38,9 @@ function draw() {
   point(xmiddle+xmiddle*.1,ymiddle+ymiddle*.05);
 
   //tophair
+  fill(0);
   strokeWeight(0);
-  fill(hairColor);
+  fill(r,g,b);
   quad(xmiddle-xmiddle*.125, ymiddle*.25, xmiddle+xmiddle*.275, ymiddle*.15, x-x*.25, y-y*.75, xmiddle*.7, y-y*.75);
   quad(x-x*.75, y-y*.75, x*.65, ymiddle*.35, xmiddle-xmiddle*.15, ymiddle*.45, xmiddle-xmiddle*.4, ymiddle*.7);
   triangle(xmiddle*.8, y-y*.75, x-x*.25, y-y*.75, x-x*.25,ymiddle-ymiddle*.15);
@@ -89,5 +96,7 @@ function draw() {
 }
 
 function mousePressed(){
-  hairColor = "red";
+  r = random(255);
+  g = random(255);
+  b = random(255);
 }
