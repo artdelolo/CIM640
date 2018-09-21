@@ -1,24 +1,13 @@
 var sun;
 var moon;
+var curImage;
 
-var r ;
-var g ;
-var b ;
+var selection;
+var textInput;
+var submitButton;
 
-var cX = 100
-;
-var cY = 250;
-var cEdge = 20;
-var cDist;
+var numberOfImages = 0;
 
-var rectX = 50;
-var rectY = 75;
-var rectSize = 100;
-
-
-var sunShow = false;
-
-var sunButton;
 
 function preload(){
   sun = loadImage('assets/sun.png');
@@ -28,49 +17,49 @@ function preload(){
 function setup() {
   // put setup code here
   createCanvas(400,400);
-  sunButton = createButton("Press to show/hide sun");
-  sunButton.position(500,100);
-  sunButton.mousePressed(function(){
-   if(sunShow == false){
-     sunShow = true;
-   }else{
-     sunShow = false;
-   }
- });
+  selection = createSelect();
+  selection.position(10,10);
+  selection.option("sun");
+  selection.option("moon");
+
+  selection.changed(function(){
+    //console.log(selection.value());
+
+    /*if(selection.value() == "sun"){
+      curImage = sun;
+    }else if(selection.value() == "moon"){
+      curImage = moon;
+    }
+    */
+
+  });
+
+  textInput = createInput("# of images");
+  textInput.position(10,30);
+
+  submitButton = createButton("Create Pattern");
+  submitButton.position(10,50);
+  submitButton.mousePressed(function(){
+
+    numberOfImages = textInput.value();
+    console.log(numberOfImages);
+    if(selection.value() == "sun"){
+      curImage = sun;
+    }else if(selection.value() == "moon"){
+      curImage = moon;
+    }
+
+  });
+
+
+  curImage = sun;
+
 }
 
 function draw(){
-
-  // put drawing code here
   background(255);
-  fill(r,g,b);
-  rect(rectX,rectY,rectSize,rectSize);
-  imageMode (CENTER);
-
-  image(sun,cX,cY,sun.width/4,sun.height/4);
-
-  if(sunShow == true){
-  image(sun,200,200);
-}
-
-}
-
-function mousePressed(){
-  if(mouseX > rectX && mouseX < rectX + rectSize && mouseY > rectY && mouseY < rectY + rectSize){
-    console.log("In Here");
-      r = random(100,256);
-      g = random(100,256);
-      b = random(100,256);
-    }
-
-    var sunDist = dist(mouseX,mouseY,cX,cY);
-    console.log("sunDist" + sunDist);
-
-    if (sunDist < 40){
-      if(sunShow == false){
-        sunShow = true;
-      } else {
-        sunShow = false;
-      }
+  for(var i = 0; i < numberOfImages; i++){
+    console.log(i);
+    image(curImage,random(width),random(height),curImage.width/random(1,5), curImage.height/random(1,5));
   }
 }
