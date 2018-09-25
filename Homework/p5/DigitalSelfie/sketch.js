@@ -6,7 +6,9 @@ var hairColor = 0;
 var r;
 var g;
 var b;
-
+var rb;
+var gb;
+var bb;
 
 function setup() {
   // put setup code here
@@ -16,7 +18,12 @@ function setup() {
 
 function draw() {
 
-  background("#58FAF4");
+  rb = mouseX/1.5;
+  gb = mouseY/1.5;
+  bb = mouseX+mouseY/3;
+
+
+  background(rb,gb,bb);
   // put drawing code here
 
   // Pick colors randomly
