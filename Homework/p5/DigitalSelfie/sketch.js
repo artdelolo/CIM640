@@ -1,5 +1,5 @@
-var x = 400;
-var y = 400;
+var x = 800;
+var y = 800;
 var xmiddle = x/2;
 var ymiddle = y/2;
 var hairColor = 0;
