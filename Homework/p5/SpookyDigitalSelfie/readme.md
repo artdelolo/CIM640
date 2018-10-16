@@ -1,6 +1,6 @@
 # MIDTERM
 
-### [LETS GET SPOOKY](https://github.com/artdelolo/CIM640/blob/master/Homework/p5/SpookyDigitalSelfie)
+### [LETS GET SPOOKY](https://artdelolo.github.io/CIM640/Homework/p5/SpookyDigitalSelfie)
 
 #### Halloween is just around the corner, and I've been so busy with graduate school I totally forgot to pick a costume out!
 
