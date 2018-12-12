@@ -19,7 +19,6 @@ Greek mythology has always been a strong interest of mine, and something I haven
 
  ### OUTPUTS
  * Persephone Jumps
- * Face paint colors
 
  ### Audience
  * Children learning about Greek mythology
