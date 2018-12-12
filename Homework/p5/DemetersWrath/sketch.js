@@ -109,7 +109,7 @@ function draw() {
           image(title,0,0);
           textAlign(CENTER);
           text("You are Persephone,", camera.position.x-300, camera.position.y-20);
-          text("Goddess of vegitation and Queen of the UNDERWORLD.", camera.position.x-300, camera.position.y);
+          text("Goddess of vegetation and Queen of the UNDERWORLD.", camera.position.x-300, camera.position.y);
           text("Summer is ending, and it is time to return home to HADES.", camera.position.x-300, camera.position.y+20);
 
           text("Use the UP arrow to JUMP", camera.position.x-300, camera.position.y+80);
