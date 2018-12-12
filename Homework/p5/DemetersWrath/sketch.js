@@ -116,7 +116,7 @@ function draw() {
           text("Reach the UNDERWORLD without hitting a wheat bundle", camera.position.x-300, camera.position.y+60);
           text("Click anywhere to start", camera.position.x-300, camera.position.y+140);
 
-        } else if(score > 0 && score < 1499 ){
+        } else if(score > 0 && score < 1949 ){
           background(0);
           fill(255);
           image(loseCard,0,0);
