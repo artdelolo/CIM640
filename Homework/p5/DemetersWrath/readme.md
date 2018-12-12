@@ -10,6 +10,9 @@
 
  ![persephone](https://github.com/artdelolo/CIM640/blob/master/Homework/p5/DemetersWrath/assets/persephone-walk-001.png)
 
+
+Greek mythology has always been a strong interest of mine, and something I haven't seen many interactive games geared towards children with. I wanted to try and create a simple game that introduced some key elements of the myth of Hades and Persephone but animated in a childlike manner. While I was unable to complete the project with my full idea of a second player who controls the seasons, it is something I would like to add later on.
+
  ### INPUTS
  * mousePressed
  * keyPressed
