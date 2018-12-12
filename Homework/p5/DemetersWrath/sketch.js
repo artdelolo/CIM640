@@ -116,18 +116,18 @@ function draw() {
           text("Reach the UNDERWORLD without hitting a wheat bundle", camera.position.x-300, camera.position.y+60);
           text("Click anywhere to start", camera.position.x-300, camera.position.y+140);
 
-        } else if(score > 0 && score < 1949 ){
+        } else if(score > 0 && score < 1999 ){
           background(0);
           fill(255);
-          image(loseCard,0,0);
-          text("YOU LOST", camera.position.x-300, camera.position.y);
-          text("You did not make it back to the UNDERWORLD", camera.position.x-300, camera.position.y+20);
-          text("Click anywhere to RETRY", camera.position.x-300, camera.position.y+40);        backgoundMusic.play;
+          image(loseCard,camera.position.x-width/2,camera.position.y-height/2);
+          text("YOU LOST", camera.position.x-400, camera.position.y);
+          text("You did not make it back to the UNDERWORLD", camera.position.x-400, camera.position.y+20);
+          text("Click anywhere to RETRY", camera.position.x-400, camera.position.y+40);
         }
         else if(score >= 1950){
         background("pink");
         fill(255);
-        image(title,0,0);
+        image(title,camera.position.x-width/2,camera.position.y-height/2);
         textAlign(CENTER);
         text("YOU WON!", camera.position.x-300, camera.position.y);
         text("You made it back to the UNDERWORLD", camera.position.x-300, camera.position.y+20);
